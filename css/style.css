@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+nav ul {
+    list-style: nome;
+    background-color: #4a4a4f;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    font-size: 1.2em; /* relative size */
+    line-height: 40px;
+    height: 40px;
+    display: inline-block; /* horiz nav bar */
+    margin: 2.5%;
+}
+
+nav a {
+    text-decoration: none; /* i.e. turn off underline */
+    color: #fff; /* font color white contrast against charcoal background */
+    display: block; /* display anchor tags as block elements */
+}
+
+nav a:hover { /* highlight when we hover over links, invert the FG BG colors */
+    background-color: #fff; 
+    color: #4a4a4f; /* font color of charcoal, previously used for BG */
+}
+
+.card {
+    float: left; /* appear on a single row - not stacked */
+    width: 20%; /* card 20% of screen width */
+    margin-left: 10% /* some white space on LHS */
+}
+
+.card a {
+    text-align: center; /* center anchor tag text */
+}
+
+img {
+    width: 100%; /* relative width, i.e. 100% of the container that it's in */
+    height: 180px; /* keep all images the same height - squeeze some tho */
+}
+
+h1{ /* heading in center of screen */
+    text-align: center;
+}
